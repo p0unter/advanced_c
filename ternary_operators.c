@@ -4,7 +4,7 @@
 
 int main() {
     char input[10];
-    scanf("%9s", input);
+    scanf("%9s", &input);
 
     char *output = (strcmp(input, "hi") == 0) ? "hi!" : "wha?";
     printf("output: %s\n", output);
